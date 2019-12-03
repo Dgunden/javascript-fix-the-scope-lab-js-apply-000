@@ -1,4 +1,4 @@
-var animal = 'dog'|| 'cat';
+var animal = 'dog';
 
 function myAnimal() {
   return animal;
