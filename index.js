@@ -3,7 +3,7 @@ var animal = 'dog';
 function myAnimal() {
   return animal;
 }
-myAnimal(myAnimal);
+myAnimal();
 
 function yourAnimal() {
   // How can we make sure that this function
@@ -11,7 +11,7 @@ function yourAnimal() {
   // P.S.: You can't just hard-code 'cat' below
   return animal;
 }
-yourAnimal(yourAnimal);
+yourAnimal();
 
 
 const two = 2;
